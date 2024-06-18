@@ -104,3 +104,9 @@ button {
   vertical-align: baseline;
   white-space: nowrap;
 }
+.flex {
+  display: flex;
+}
+li {
+  list-style: none;
+}

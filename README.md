@@ -3,6 +3,7 @@
 ## Developing
 
 Install dependencies `npm install`.
+Add spotify client secret to CLIENT_SECRET in .env.local file.
 
 ```bash
 npm run dev
