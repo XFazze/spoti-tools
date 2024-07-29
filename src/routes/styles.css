@@ -106,7 +106,35 @@ button {
 }
 .flex {
   display: flex;
+  gap: 1rem;
+}
+.flex-col {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+ul {
+  padding-left: 0px;
 }
 li {
   list-style: none;
+}
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-col-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+}
+.title {
+  align-self: start;
+}
+.unselected {
+  background-color: var(--color-bg);
+}
+.gap-1 {
+  gap: 1rem;
 }
